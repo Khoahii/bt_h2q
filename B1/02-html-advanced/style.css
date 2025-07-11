@@ -1,0 +1,61 @@
+body.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+form.login-form {
+  width: 340px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.login-form input,
+.login-form select,
+.login-form textarea,
+.login-form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.login-form button {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #155a9c;
+}
+
+/* Xóa đường viền bảng */
+.login-form hr {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}

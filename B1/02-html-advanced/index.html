@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Biểu mẫu liên hệ và đăng ký của website Demo">
+  <title>Liên hệ / Đăng ký</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <form class="login-form" action="#" method="post">
+    <h1>Liên hệ chúng tôi</h1>
+    <label for="name">Họ và tên:</label>
+    <input type="text" id="name" name="name" placeholder="Nhập họ và tên" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+    <label for="subject">Chủ đề:</label>
+    <select id="subject" name="subject" required>
+      <option value="">--Chọn chủ đề--</option>
+      <option value="thacmac">Thắc mắc</option>
+      <option value="phanhoi">Phản hồi</option>
+      <option value="dangky">Đăng ký</option>
+    </select>
+
+    <label for="message">Nội dung:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Viết nội dung..." required></textarea>
+
+    <button type="submit">Gửi</button>
+  </form>
+</body>
+</html>
