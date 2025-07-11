@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .margin-0 {
+        margin: 0 !important;
+      }
+
+      .line-number {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        border: 1px solid black;
+        padding: 0 5px;
+        border-radius: 50%;
+      }
+
+      .checkBox {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-left: 6px;
+        border: 2px solid #000;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+
+      .borderS {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" style="padding: 50px">
+      <h3 style="text-align: end">Phụ lục IV - Mẫu số 03</h3>
+
+      <div style="display: flex; gap: 5px">
+        <div style="flex: 1">
+          <h3 style="text-align: center">Tờ khai</h3>
+          <p>
+            ÊU CẦU GHI NHẬN VIỆC SỬA ĐỔI NỘI DUNG/ GIA HẠN/CHẤM DỨT HIỆU LỰC HỢP
+            ĐỒNG CHUYỂN QUYỀN SỬ DỤNG ĐỐI TƯỢNG SỞ HỮU CÔNG NGHIỆP
+          </p>
+          <span>Kính gửi:<sup>1</sup>…………………………………… </span>
+          <p>
+            Người nộp đơn dưới đây yêu cầu ghi nhận việc sửa đổi nội dung/gia
+            hạn/chấm dứt hiệu lực hợp đồng chuyển quyền sử dụng đối tượng sở hữu
+            công nghiệp <sup>2</sup>
+          </p>
+        </div>
+        <div
+          style="flex: 1; border: 2px solid black; border-bottom: transparent"
+        >
+          <h4 style="text-align: center">DẤU NHẬN ĐƠN</h4>
+          <p
+            style="
+              text-align: center;
+              font-size: small;
+              transform: translateY(-20px);
+            "
+          >
+            <i>(Dành cho cán bộ nhận đơn)</i>
+          </p>
+        </div>
+      </div>
+
+      <!-- line 1 -->
+      <div
+        style="border: 2px solid black; position: relative; border-bottom: none"
+      >
+        <div class="line-number">1</div>
+        <h3 style="text-align: center">NGƯỜI NỘP ĐƠN</h3>
+        <p
+          style="
+            text-align: center;
+            transform: translateY(-18px);
+            margin-bottom: 0;
+          "
+        >
+          (Tổ chức, cá nhân yêu cầu sửa đổi/gia hạn/chấm dứt hiệu lực hợp đồng)
+        </p>
+        <p class="margin-0">Tên đầy đủ:</p>
+        <p class="margin-0">Địa chỉ:</p>
+        <div style="display: flex; gap: 100px">
+          <span>Số căn cước công dân (nếu có): </span>
+          <span style="margin: 0 70px">Điện thoại: </span>
+          <span>Email: </span>
+        </div>
+        <div style="padding: 5px 0">
+          <span class="checkBox"></span>
+          <span>là bên chuyển quyền sử dụng </span>
+        </div>
+        <div style="padding-bottom: 5px">
+          <span class="checkBox"></span>
+          <span>là bên nhận chuyển quyền sử dụng </span>
+        </div>
+      </div>
+
+      <!-- line 2 -->
+      <div
+        style="border: 2px solid black; position: relative; border-bottom: none"
+      >
+        <div class="line-number">2</div>
+        <h4 style="text-align: center">ĐẠI DIỆN CỦA NGƯỜI NỘP ĐƠN</h4>
+        <div style="display: flex; gap: 5px">
+          <div style="flex: 9">
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span>là người đại diện theo pháp luật của người nộp đơn </span>
+            </div>
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span
+                >là tổ chức dịch vụ đại diện sở hữu công nghiệp được uỷ quyền
+                của người nộp đơn
+              </span>
+            </div>
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span>là người khác được uỷ quyền của người nộp đơn </span>
+            </div>
+
+            <p class="margin-0">Tên đầy đủ:</p>
+            <p class="margin-0">Địa chỉ:</p>
+            <div style="display: flex; gap: 100px">
+              <span>Điện thoại:</span>
+              <span style="margin-left: 100px">Email:</span>
+            </div>
+          </div>
+
+          <div style="flex: 2">
+            <p
+              style="padding: 10px; border: 1px solid black; margin-right: 20px"
+            >
+              Mã số đại diện:
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- line 3 -->
+      <div style="display: flex">
+        <div style="flex: 1; border: 2px solid black; position: relative">
+          <div class="line-number">3</div>
+          <h4 class="margin-0" style="text-align: center">Nội dung yêu cầu</h4>
+
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span>Sửa đổi tên, địa chỉ của:</span>
+            <span class="checkBox"></span>
+            <span> Bên chuyển quyền</span>
+          </div>
+          <div
+            style="
+              padding: 5px 0;
+              text-align: end;
+              transform: translateX(-38px);
+            "
+          >
+            <span class="checkBox"></span>
+            <span>Bên nhận chuyển quyền :</span>
+          </div>
+
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span>Sửa đổi, bổ sung điều khoản trong hợp đồng </span>
+          </div>
+
+          <div style="padding: 5px 0; margin-left: 20px">
+            <span class="checkBox"></span>
+            <span>... văn bằng bảo hộ liên quan đến nội dung sửa đổi</span>
+          </div>
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span> Gia hạn hợp đồng </span>
+          </div>
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span>Chấm dứt hiệu lực hợp đồng </span>
+          </div>
+        </div>
+        <div
+          style="
+            flex: 1;
+            border: 2px solid black;
+            border-left: none;
+            position: relative;
+          "
+        >
+          <div class="line-number">4</div>
+          <h4 style="margin: 0 20px">
+            GIẤY CHỨNG NHẬN ĐĂNG KÝ HỢP ĐỒNG CHUYỂN QUYỀN SỬ DỤNG ĐỐI TƯỢNG SỞ
+            HỮU CÔNG NGHIỆP
+          </h4>
+          <p>Số giấy chứng nhận</p>
+          <p>Ngày cấp:</p>
+        </div>
+      </div>
+
+      <!-- line 5 -->
+      <div style="border: 2px solid black; border-top: none">
+        <div class="line-number">5</div>
+        <h4 style="text-align: center" class="margin-0">
+          BÊN THỨ HAI TRONG HỢP ĐỒNG (KHÔNG ĐỨNG TÊN NGƯỜI NỘP ĐƠN)
+        </h4>
+        <p>Tên đầy đủ:</p>
+        <p class="margin-4">Địa chỉ:</p>
+        <div style="display: flex; gap: 100px">
+          <span>Điện thoại:</span>
+          <span style="margin-left: 100px">Email:</span>
+        </div>
+      </div>
+
+      <div
+        style="border-top: 1px solid black; margin-top: 40px; width: 30%"
+      ></div>
+
+      <p>
+        <sup>1</sup>Tên cơ quan quản lý nhà nước về quyền sở hữu công nghiệp.
+      </p>
+      <p>
+        <sup>2</sup> Trong Tờ khai này, người nộp đơn/đại diện của người nộp đơn
+        đánh dấu "x" vào ô vuông  nếu các thông tin ghi sau các ô vuông là phù
+        hợp.
+      </p>
+
+      <!-- line 6 -->
+      <div style="border: 2px solid black; border-bottom: none">
+        <div style="position: relative">
+          <div class="line-number">6</div>
+          <h4 style="padding-left: 40px">PHÍ, LỆ PHÍ</h4>
+        </div>
+        <div style="display: flex">
+          <div
+            class="borderS"
+            style="flex: 7; border-bottom: none; border-left: none"
+          >
+            <h4 style="text-align: center">Loại phí lệ phí</h4>
+            <div
+              style="padding: 5px 0; border-top: 2px solid black; display: flex"
+            >
+              <span class="checkBox" style="margin-right: 4px"></span>
+              <span
+                >Phí thẩm định yêu cầu sửa đổi/gia hạn/chấm dứt thời hạn hiệu
+                lực hợp đồng đã ghi nhận trong Giấy chứng nhận đăng ký hợp đồng
+              </span>
+            </div>
+            <div
+              style="padding: 5px 0; border-top: 2px solid black; display: flex"
+            >
+              <span class="checkBox" style="margin-right: 4px"></span>
+              <span
+                >sửa đổi phạm vi chuyển giao, kéo dài thời hạn hợp đồng
+              </span>
+            </div>
+            <div
+              style="padding: 5px 0; border-top: 2px solid black; display: flex"
+            >
+              <span class="checkBox" style="margin-right: 4px"></span>
+              <span
+                >sửa đổi khác, bao gồm cả chấm dứt hiệu lực hợp đồng trước thời
+                hạn
+              </span>
+            </div>
+            <div
+              style="padding: 5px 0; border-top: 2px solid black; display: flex"
+            >
+              <span class="checkBox" style="margin-right: 4px"></span>
+              <span
+                >Phí đăng bạ quyết định sửa đổi/gia hạn/chấm dứt hiệu lực hợp
+                đồng đã ghi nhận trong Giấy chứng nhận đăng ký hợp đồng
+              </span>
+            </div>
+            <div
+              style="padding: 5px 0; border-top: 2px solid black; display: flex"
+            >
+              <span class="checkBox" style="margin-right: 4px"></span>
+              <span
+                >Phí công bố quyết định sửa đổi/gia hạn/chấm dứt hiệu lực hợp
+                đồng đã ghi nhận trong Giấy chứng nhận đăng ký hợp đồng
+              </span>
+            </div>
+          </div>
+          <div
+            class="borderS"
+            style="flex: 3; border-bottom: none; border-left: none"
+          >
+            <h4 style="text-align: center">Số đối tượng tính phí</h4>
+            <div
+              class="borderS"
+              style="padding-top: 30px; border-top: 1px solid black"
+            >
+              .
+            </div>
+            <div class="borderS" style="padding-top: 10px">
+              … văn bằng bảo hộ
+            </div>
+            <div class="borderS" style="padding-top: 28px">Hợp đồng</div>
+            <div class="borderS" style="padding-top: 28px">
+              ... văn bằng bảo hộ
+            </div>
+            <div class="borderS" style="padding-top: 28px">Quyết định</div>
+          </div>
+          <div
+            class="borderS"
+            style="flex: 3; border-bottom: none; border-left: none"
+          >
+            <h4 style="text-align: center">Số tiền</h4>
+            <div
+              class="borderS"
+              style="padding-top: 30px; border-top: 1px solid black"
+            >
+              .
+            </div>
+            <div class="borderS" style="padding-top: 10px">.</div>
+            <div class="borderS" style="padding-top: 28px">.</div>
+            <div class="borderS" style="padding-top: 28px">.</div>
+            <div class="borderS" style="padding-top: 28px">.</div>
+          </div>
+        </div>
+        <div style="border-top: 2px solid black">
+          Tổng số phí, lệ phí nộp theo đơn là:
+        </div>
+        <div style="border-top: 2px solid black">
+          Số chứng từ (trường hợp nộp phí, lệ phí qua dịch vụ bưu chính hoặc nộp
+          trực tiếp vào tài khoản của cơ quan quản lý nhà nước về quyền sở hữu
+          công nghiệp):
+        </div>
+      </div>
+
+      <!-- line 7 -->
+      <div style="display: flex; border: 2px solid black; border-bottom: none">
+        <div style="flex: 6; position: relative; border-right: 1px solid black">
+          <div class="line-number">7</div>
+          <h3 style="text-align: center">NGƯỜI NỘP ĐƠN</h3>
+
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span> Tờ khai, gồm .......trang </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>
+              Bản gốc Giấy chứng nhận đăng ký hợp đồng chuyển quyền sử dụng
+              (trường hợp sửa đổi nội dung, gia hạn hiệu lực hợp đồng)
+            </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span
+              >Tài liệu chứng minh việc sửa đổi tên, địa chỉ của các bên trong
+              hợp đồng
+            </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span
+              >Thoả thuận, tài liệu ghi nhận các điều khoản cụ thể cần sửa đổi
+              bổ sung, gia hạn hoặc chấm dứt hiệu lực hợp đồng
+            </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>Văn bản uỷ quyền bằng tiếng....... </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span> bản dịch tiếng Việt, gồm.......trang </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>bản gốc</span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>bản sao(</span>
+          </div>
+          <div style="transform: translate(90px, -25px)">
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span>bản gốc sẽ nộp sau </span>
+            </div>
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span
+                >bản gốc đã nộp theo đơn số:..........................)</span
+              >
+            </div>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span
+              >Bản sao chứng từ nộp phí, lệ phí (trường hợp nộp phí, lệ phí qua
+              dịch vụ bưu chính hoặc nộp trực tiếp vào tài khoản của cơ quan
+              quản lý nhà nước về quyền sở hữu công nghiệp)
+            </span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>Tài liệu khác, cụ thể: </span>
+          </div>
+        </div>
+
+        <div style="flex: 3">
+          <h3 style="text-align: center">KIỂM TRA DANH MỤC TÀI LIỆU</h3>
+          <p style="text-align: center">(Dành cho cán bộ nhận đơn)</p>
+        </div>
+      </div>
+
+      <!-- line 8 -->
+      <div style="border: 2px solid black; position: relative">
+        <div class="line-number">8</div>
+        <h4 style="text-align: end; padding-right: 20px">
+          CAM KẾT CỦA NGƯỜI NỘP ĐƠN/ĐẠI DIỆN CỦA NGƯỜI NỘP ĐƠN
+        </h4>
+        <p>
+          Tôi cam đoan mọi thông tin trong tờ khai trên đây là trung thực, đúng
+          sự thật và hoàn toàn chịu trách nhiệm trước pháp luật.
+        </p>
+        <p style="text-align: end; margin-right: 30px;">Khai tại:….........…….ngày…… tháng……năm……</p>
+        <p style="text-align: end; margin-right: 10px;">Chữ ký, họ tên người nộp đơn/đại diện của người nộp đơn</p>
+        <p style="text-align: end; margin-right: 80px;">(Ghi rõ chức vụ và đóng dấu, nếu có)</p>
+      </div>
+    </div>
+  </body>
+</html>
