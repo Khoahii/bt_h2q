@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      body {
+        padding: 0 10%;
+      }
+      .center {
+        text-align: center;
+      }
+
+      .borderAll {
+        border: 2px solid black;
+      }
+      .borderMinusBottom {
+        border: 2px solid black;
+        border-bottom: none;
+      }
+      .borderMinusTop {
+        border: 2px solid black;
+        border-top: none;
+      }
+
+      .line-number {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        border: 1px solid black;
+        padding: 0 5px;
+        border-radius: 50%;
+      }
+
+      .checkBox {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-left: 6px;
+        border: 2px solid #000;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="text-align: end">Phụ lục II - Mẫu số 03</h3>
+    <div style="display: flex">
+      <div style="flex: 1">
+        <h4 class="center">TỜ KHAI</h4>
+        <p class="center">ĐĂNG KÝ NHÃN HIỆU ĐƯỢC CHUYỂN ĐỔI TỪ</p>
+        <p class="center">ĐĂNG KÝ QUỐC TẾ NHÃN HIỆU BỊ MẤT</p>
+        <p class="center">HIỆU LỰC THEO ĐIỀU 9 <sup>quinquies</sup> CỦA</p>
+        <p class="center">NGHỊ ĐỊNH THƯ MADRID</p>
+
+        <p class="center">Kính gửi: CỤC SỞ HỮU TRÍ TUỆ</p>
+        <p class="center">
+          Người nộp đơn dưới đây đề nghị thực hiện việc đăng ký nhãn hiệu quốc
+          gia được chuyển đổi từ đăng ký quốc tế nhãn hiệu (ĐKQT) đã bị mất hiệu
+          lực theo Điều 9 <sup>quinquies</sup> của Nghị định thư Madrid
+          <sup>1</sup>
+        </p>
+      </div>
+      <div style="flex: 1" class="borderMinusBottom">
+        <h3 style="text-align: center; margin-bottom: 0">DẤU NHẬN ĐƠN</h3>
+        <p style="text-align: center; margin-top: 6px">
+          <i>(Dành cho cán bộ nhận đơn)</i>
+        </p>
+      </div>
+    </div>
+
+    <!-- line 1 -->
+    <div class="borderAll">
+      <div style="border-bottom: 1px solid black; position: relative">
+        <div class="line-number">1</div>
+        <h3 class="center" style="margin-left: 25%">
+          NHÃN HIỆU ĐƯỢC YÊU CẦU CHUYỂN ĐỐI
+        </h3>
+      </div>
+      <div style="display: flex">
+        <!-- trai -->
+        <div
+          style="
+            flex: 1;
+            border-right: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          "
+        >
+          <h4 class="center">Mẫu nhãn hiệu</h4>
+          <div style="border: 1px dashed black; width: 90%; height: 70%"></div>
+        </div>
+
+        <!-- phai -->
+        <div style="flex: 1">
+          <div>
+            <h4
+              class="center"
+              style="border-bottom: 1px solid black; padding-bottom: 15px"
+            >
+              Thông tin về ĐKQT bị mất hiệu lực
+            </h4>
+          </div>
+          <div style="margin-left: 8px">
+            <p>Số ĐKQT bị mất hiệu lực:</p>
+            <p>Ngày ĐKQT:</p>
+            <p>
+              Ngày chỉ định sau (trong trường hợp có chỉ định sau vào Việt Nam):
+            </p>
+            <p>Ngày ưu tiên của ĐKQT (nếu có):</p>
+            <div style="margin-left: 10%; margin-bottom: 10%">
+              <p>Ngày ghi nhận việc mất hiệu lực trong Sổ</p>
+              <p>đăng bạ quốc tế của Văn phòng quốc tế:</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- line 2 -->
+    <div class="borderMinusTop" style="position: relative">
+      <div class="line-number">2</div>
+      <h4 class="center" style="margin: 0">NGƯỜI NỘP ĐƠN</h4>
+      <p class="center" style="margin: 0">
+        (Tổ chức, cá nhân yêu cầu chuyển đổi)
+      </p>
+      <p>Tên đầy đủ:</p>
+      <p>Địa chỉ:</p>
+      <div style="display: flex; gap: 15%">
+        <span>Số căn cước công dân (nếu có): </span>
+        <span>Điện thoại: </span>
+        <span>Email: </span>
+      </div>
+    </div>
+
+    <!-- line 3 -->
+    <div class="borderMinusTop" style="position: relative">
+      <div class="line-number">3</div>
+      <h4 class="center" style="margin: 0">ĐẠI DIỆN NGƯỜI NỘP ĐƠN</h4>
+
+      <div style="padding: 5px 0">
+        <span class="checkBox"></span>
+        <span> Là người đại diện theo pháp luật của người nộp đơn</span>
+      </div>
+      <div style="display: flex; gap: 10px">
+        <div style="padding: 5px 0">
+          <span class="checkBox"></span>
+          <span>
+            Là tổ chức dịch vụ đại diện sở hữu công nghiệp được uỷ quyền của
+            người nộp đơn</span
+          >
+        </div>
+        <span class="borderAll" style="padding: 1% 4% 1% 0.4%; transform: translateX(280%);"
+          >Mã số đại diện:</span
+        >
+      </div>
+
+      <div style="padding: 5px 0">
+        <span class="checkBox"></span>
+        <span> Là người khác được uỷ quyền của người nộp đơn</span>
+      </div>
+
+      <p style="margin: 0">Tên đầy đủ:</p>
+      <p style="margin: 0">Địa chỉ:</p>
+      <div style="display: flex; gap: 20%; margin: 0">
+        <p style="margin: 0">Điện thoại:</p>
+        <p style="margin: 0">Email:</p>
+      </div>
+    </div>
+
+    <div
+      style="border-top: 1px solid black; margin-top: 40px; width: 30%"
+    ></div>
+    <span
+      ><sup>1</sup> Trong Tờ khai này, người nộp đơn/đại diện của người nộp đơn
+      đánh dấu “x” vào ô vuông  nếu các thông tin ghi sau các ô vuông là phù
+      hợp.
+    </span>
+
+    <!-- lin4 4 -->
+    <div class="borderAll" style="position: relative">
+      <div class="line-number">4</div>
+      <h4 class="center">LỆ PHÍ</h4>
+
+      <div style="display: flex">
+        <div style="flex: 7; border-left: none" class="borderMinusBottom">
+          <h4 style="margin: 2%" class="center">Loại lệ phí</h4>
+        </div>
+        <div style="flex: 4; border-left: none" class="borderMinusBottom">
+          <h4 style="margin: 2%" class="center">Số đối tượng tính phí</h4>
+        </div>
+        <div
+          style="flex: 2; border-left: none; border-right: none"
+          class="borderMinusBottom"
+        >
+          <h4 style="margin: 2%" class="center">Số tiền</h4>
+        </div>
+      </div>
+
+      <div style="display: flex">
+        <div style="flex: 7; border-left: none" class="borderMinusBottom">
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span> Lệ phí nộp đơn </span>
+          </div>
+        </div>
+        <div style="flex: 4; border-left: none" class="borderMinusBottom">
+          đơn
+        </div>
+        <div
+          style="flex: 2; border-left: none; border-right: none"
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div
+          style="flex: 7; border-left: none; border-bottom: 1px dashed black"
+          class="borderMinusBottom"
+        >
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span> Phí phân loại quốc tế về nhãn hiệu </span>
+          </div>
+        </div>
+        <div
+          style="flex: 4; border-left: none; border-bottom: 1px dashed black"
+          class="borderMinusBottom"
+        >
+          ..... nhóm
+        </div>
+        <div
+          style="
+            flex: 2;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px dashed black;
+          "
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex; border-top: none">
+        <div
+          style="flex: 7; border-left: none; border-top: none"
+          class="borderMinusBottom"
+        >
+          <div style="padding: 5px 0; margin-left: 5%">
+            <span class="checkBox"></span>
+            <span>
+              Mỗi nhóm có trên 6 sản phẩm/dịch vụ (từ sản phẩm/dịch vụ thứ 7 trở
+              đi)
+            </span>
+          </div>
+        </div>
+        <div
+          style="flex: 4; padding-top: 5px; border-left: none; border-top: none"
+          class="borderMinusBottom center"
+        >
+          ..... sản phẩm/dịch vụ
+        </div>
+        <div
+          style="
+            flex: 2;
+            border-left: none;
+            border-top: none;
+            border-right: none;
+          "
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div style="flex: 7; border-left: none" class="borderMinusBottom">
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span>
+              Phí công bố đơn (trường hợp đăng ký quốc tế nhãn hiệu chưa được
+              chấp nhận bảo hộ tại Việt Nam)
+            </span>
+          </div>
+        </div>
+        <div style="flex: 4; border-left: none" class="borderMinusBottom">
+          đơn
+        </div>
+        <div
+          style="flex: 2; border-left: none; border-right: none"
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div
+          style="flex: 7; border-left: none; border-bottom: 1px dashed black"
+          class="borderMinusBottom"
+        >
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span> Phí tra cứu phục vụ việc thẩm định </span>
+          </div>
+        </div>
+        <div
+          style="flex: 4; border-left: none; border-bottom: 1px dashed black"
+          class="borderMinusBottom"
+        >
+          .... nhóm
+        </div>
+        <div
+          style="
+            flex: 2;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px dashed black;
+          "
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div
+          style="flex: 7; border-left: none; border-top: none"
+          class="borderMinusBottom"
+        >
+          <div style="padding: 5px 0; margin-left: 5%">
+            <span class="checkBox"></span>
+            <span>
+              Mỗi nhóm có trên 6 sản phẩm/dịch vụ (từ sản phẩm/dịch vụ thứ 7 trở
+              đi)
+            </span>
+          </div>
+        </div>
+        <div
+          style="flex: 4; border-left: none; border-top: none"
+          class="borderMinusBottom center"
+        >
+          ..... sản phẩm/dịch vụ
+        </div>
+        <div
+          style="
+            flex: 2;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+          "
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div
+          style="flex: 7; border-left: none; border-bottom: 1px dashed black"
+          class="borderMinusBottom"
+        >
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span> Phí thẩm định đơn </span>
+          </div>
+        </div>
+        <div
+          style="flex: 4; border-left: none; border-bottom: 1px dashed black"
+          class="borderMinusBottom"
+        >
+          ... nhóm
+        </div>
+        <div
+          style="
+            flex: 2;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px dashed black;
+          "
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div
+          style="flex: 7; border-left: none; border-top: none"
+          class="borderMinusBottom"
+        >
+          <div style="padding: 5px 0; margin-left: 5%">
+            <span class="checkBox"></span>
+            <span>
+              Mỗi nhóm có trên 6 sản phẩm/dịch vụ (từ sản phẩm/dịch vụ thứ 7 trở
+              đi)
+            </span>
+          </div>
+        </div>
+        <div
+          style="flex: 4; border-left: none; border-top: none"
+          class="borderMinusBottom center"
+        >
+          ..... sản phẩm/dịch vụ
+        </div>
+        <div
+          style="
+            flex: 2;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+          "
+          class="borderMinusBottom"
+        ></div>
+      </div>
+
+      <div style="display: flex">
+        <div style="flex: 11; border-left: none" class="borderMinusBottom">
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span>Nối trực tiếp</span>
+          </div>
+        </div>
+        <div
+          style="flex: 2; border-left: none; border-right: none"
+          class="borderMinusBottom"
+        ></div>
+      </div>
+      <div style="display: flex">
+        <div style="flex: 11; border-left: none" class="borderMinusBottom">
+          <div style="padding: 5px 0">
+            <span class="checkBox"></span>
+            <span
+              >Nộp bằng hình thức chuyển khoản hoặc qua dịch vụ bưu chính (ghi
+              rõ thông tin giao dịch):</span
+            >
+          </div>
+        </div>
+        <div
+          style="flex: 2; border-left: none; border-right: none"
+          class="borderMinusBottom"
+        ></div>
+      </div>
+    </div>
+
+    <!-- line 5 -->
+    <div class="borderMinusTop" style="display: flex; position: relative">
+      <div class="line-number">3</div>
+      <!-- trai -->
+      <div style="flex: 7; border-right: 1px solid black">
+        <h4 class="center">CÁC TÀI LIỆU CÓ TRONG ĐƠN</h4>
+
+        <div style="padding: 5px 0">
+          <span class="checkBox"></span>
+          <span> Tờ khai, gồm.......trang x .......bản</span>
+        </div>
+        <div style="padding: 5px 0">
+          <span class="checkBox"></span>
+          <span> Mẫu nhãn hiệu, gồm .... mẫu</span>
+        </div>
+        <div style="padding: 5px 0">
+          <span class="checkBox"></span>
+          <span>Văn bản uỷ quyền x 01 bản</span>
+        </div>
+
+        <div style="transform: translateX(10%)">
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>bản gốc</span>
+          </div>
+          <div style="padding-bottom: 5px">
+            <span class="checkBox"></span>
+            <span>bản sao(</span>
+          </div>
+          <div style="transform: translate(90px, -25px)">
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span>bản gốc sẽ nộp sau </span>
+            </div>
+            <div style="padding-bottom: 5px">
+              <span class="checkBox"></span>
+              <span
+                >bản gốc đã nộp theo đơn số:..........................)</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div style="padding-bottom: 5px">
+          <span class="checkBox"></span>
+          <span
+            >Bản sao chứng từ nộp phí, lệ phí (trường hợp nộp phí, lệ phí qua
+            dịch vụ bưu chính hoặc nộp trực tiếp vào tài khoản của cơ quan quản
+            lý nhà nước về quyền sở hữu công nghiệp)</span
+          >
+        </div>
+        <div style="padding-bottom: 5px">
+          <span class="checkBox"></span>
+          <span>Tài liệu khác, cụ thể:...</span>
+        </div>
+        <div style="padding-bottom: 5px">
+          <span class="checkBox"></span>
+          <span>Có... trang bổ sung, bao gồm (nêu cụ thể). </span>
+        </div>
+        <div style="padding-bottom: 5px">
+          <span class="checkBox"></span>
+          <span>Bản sao ĐKQT bị mất hiệu lực</span>
+        </div>
+      </div>
+
+      <!-- phai -->
+      <div style="flex: 4">
+        <h4 style="margin: 24px 0 0 0" class="center">
+          KIỂM TRA DANH MỤC TÀI LIỆU
+        </h4>
+        <p style="margin: 0" class="center">
+          <i>(Dành cho cán bộ nhận đơn)</i>
+        </p>
+
+        <div style="display: flex">
+          <div>
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 15px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 50px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+            <span style="margin-top: 10px" class="checkBox"></span>
+            <br />
+          </div>
+
+          <div
+            style="
+              width: 170px;
+              height: 200px;
+              transform: translate(140%, 94px);
+            "
+            class="borderAll"
+          >
+            <p style="margin: 0" class="center">Cán bộ nhận đơn</p>
+            <p style="margin: 0" class="center">
+              <i>(Ký và ghi rõ họ tên)</i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- line 6 -->
+    <div
+      class="borderMinusTop"
+      style="position: relative; padding-bottom: 200px"
+    >
+      <div class="line-number">6</div>
+      <h4 style="margin: 0" class="center">
+        DANH MỤC VÀ PHÂN NHÓM HÀNG HOÁ, DỊCH VỤ MANG NHÃN HIỆU CHUYỂN ĐỔI
+      </h4>
+      <p class="center">
+        <i
+          >(Danh mục hàng hóa, dịch vụ phải nhỏ hơn hoặc bằng danh mục bị mất
+          hiệu lực trong đăng ký quốc tế. Ghi thứ tự nhóm theo Bảng phân loại
+          quốc tế về hàng hoá, dịch vụ theo Thoả ước Ni-xơ; sử dụng dấu “;” giữa
+          các sản phẩm, dịch vụ trong nhóm; kết thúc mỗi nhóm ghi tổng số sản
+          phẩm, dịch vụ trong nhóm đó)
+        </i>
+      </p>
+    </div>
+
+    <!-- line 7 -->
+    <div
+      class="borderMinusTop"
+      style="position: relative; padding-bottom: 200px"
+    >
+      <div class="line-number">7</div>
+      <h4 style="margin: 0" class="center">
+        CAM KẾT CỦA NGƯỜI NỘP ĐƠN/ĐẠI DIỆN CỦA NGƯỜI NỘP ĐƠN
+      </h4>
+      <p>
+        Tôi cam đoan mọi thông tin trong tờ khai trên đây là trung thực, đúng sự
+        thật và hoàn toàn chịu trách nhiệm trước pháp luật
+      </p>
+
+      <p style="text-align: end; margin-right: 14%;">
+        Khai tại: ... ... ... ngày ... tháng ... năm ...
+      </p>
+      <p style="text-align: end; margin-right: 8%;">
+        Chữ ký, họ tên của người nộp đơn/đại diện của người nộp đơn
+      </p>
+      <p style="text-align: end; margin-right: 15%;">
+        <i>(Ghi rõ chức vụ và đóng dấu, nếu có)</i>
+      </p>
+    </div>
+  </body>
+</html>
